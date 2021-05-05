@@ -32,7 +32,6 @@ $_password = strip_tags($password);
         ////////////////////////////////////////////////////////
           if($cat ==2) {
             $_SESSION["categoria"]=2;
-<<<<<<< HEAD
            header('location: ../Cliente.php');
           }
         //Fin Validador estado
