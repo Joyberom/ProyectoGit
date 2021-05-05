@@ -32,28 +32,21 @@ $_password = strip_tags($password);
         ////////////////////////////////////////////////////////
           if($cat ==2) {
             $_SESSION["categoria"]=2;
-           header('location: ../Cliente.php');
+
+         
+            header('location: ../Cliente.php'); /*  Git Cambios  Para Master*/ 
           }
         //Fin Validador estado
       }else{
-          $_SESSION["Inactivo"] = "El Usuario se Encuentra Inactivo";
-=======
-           header('location: ../Cliente.php'); /*  Git Cambios  Para Master*/ 
-          }
-        //Fin Validador estado
-      }else{
-          $_SESSION["Inactivo"] = "El Usuario se Encuentra Inactivo --- Cambio parag git";
->>>>>>> Changes
-          echo'<script type="text/javascript">window.location.href="../index.php";</script>';
-      }         
+          $_SESSION["Inactivo"] = "El Usuario se Encuentra Inactivo --- Cambio parag git";    
+                echo'<script type="text/javascript">window.location.href="../index.php";</script>';
+      }   
         ////////////////////////////////////////////////////////
         }   
           }else {
-<<<<<<< HEAD
-            $_SESSION["Inactivo"] = "Usuario o Contraseña No Coinciden";
-=======
+
             $_SESSION["Inactivo"] = "Usuario o Contraseña No Coinciden --  Cambio para git";
->>>>>>> Changes
+
             echo'<script type="text/javascript">window.location.href="../index.php";</script>';
         // echo'<script type="text/javascript">alert("Usuario o Contraseña No Coinciden");window.location.href="../index.php";</script>';
          }
