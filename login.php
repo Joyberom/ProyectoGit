@@ -47,9 +47,9 @@
                                 <input class="btn btn-lg btn-success btn-block" id="login_button" name="login_button" value="Iniciar sesión." type="submit">
                                 
                     <?php
-                    session_start();
-                    if(isset($_SESSION['Inactivo'])) {
-                    echo $_SESSION['Inactivo'];
+                    session_start();                    /* Cambios para git  */
+                    if(isset($_SESSION['Inactivo'])) { /* Validacion de session  */
+                    echo $_SESSION['Inactivo'];        /* Validacion confictos  */
                     unset($_SESSION['Inactivo']);}
                     ?>
 

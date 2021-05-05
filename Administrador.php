@@ -16,7 +16,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h1 class="page-header">Administrador</h1>
+                            <h1 class="page-header">Administrador</h1>   
                         </div>
                         
                     </div>
@@ -24,7 +24,7 @@
                 </div>
 
 
-<!--========================================================================================================-->
+<!--=================================================== Modificacion Para git=====================================================-->
                            <div class="panel panel-default">
                                 <div class="panel-heading">
                                     Hover Rows
